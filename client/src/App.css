@@ -1,0 +1,216 @@
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #B0E0E6;
+  color: #2c3e50;
+}
+
+h1, h2 {
+  margin-left: 100px;
+  margin-right: 100px;
+  text-align: center;
+  margin-bottom: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
+.auth-wrapper {
+  position: relative; 
+  max-width: 450px;
+  margin: 150px auto;
+  background: skyblue;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+  text-align: center;
+}
+.auth-wrapper input {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.auth-wrapper button {
+  width: 100%;
+  padding: 10px;
+  background-color: #18bc9c;
+  border: none;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  margin-top: 10px;
+  transition: background-color 0.2s ease;
+}
+
+.auth-wrapper button:hover {
+  background-color: #149a84;
+}
+
+.branding {
+  font-size: 26px;
+  font-weight: bold;
+  color: #2c3e50;
+  margin-bottom: 5px;
+}
+
+.subtitle {
+  font-size: 14px;
+  color: #777;
+  margin-bottom: 20px;
+}
+
+.link-switch {
+  font-size: 14px;
+  margin-top: 10px;
+  
+}
+
+.link-switch button {
+  background: none;
+  border: none;
+  color: #3498db;
+  cursor: pointer;
+  font-weight: bold;
+  color: #2c3e50;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+
+.container {
+  max-width: 600px;
+  margin: 60px auto;
+  background: skyblue;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+}
+
+.input-group {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.input-group input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.input-group button {
+  padding: 10px 16px;
+  background-color: #18bc9c;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.input-group button:hover {
+  background-color: #149a84;
+}
+
+.filters {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.filters button {
+  padding: 6px 14px;
+  background-color: #ddd;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.filters button:hover {
+  background-color: #18bc9c;
+  color: white;
+
+}
+
+.filters .active {
+  background-color: #18bc9c;
+  color: white;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  padding: 12px;
+  background-color: lightcyan;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+li.overdue {
+  border-left: 4px solid red;
+  background-color: #ffe6e6;
+}
+
+li .task-info {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+li .task-info span {
+  font-weight: 600;
+}
+
+li .task-info small {
+  font-size: 12px;
+  color: #555;
+}
+
+.task-actions {
+  display: flex;
+  gap: 10px;
+}
+
+.task-actions button {
+  background-color: #bdc3c7;
+  border: none;
+  padding: 6px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.task-actions .edit {
+  background-color: #3498db;
+  color: white;
+}
+
+.task-actions .delete {
+  background-color: #e74c3c;
+  color: white;
+}
+ .task-actions .delete:hover {
+  font-size: larger;
+
+}
+.task-actions .edit:hover {
+  font-size: larger;
+
+} 
+.logout-btn{
+  background-color:#2c3e50;
+  color: white;
+}
