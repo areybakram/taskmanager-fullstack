@@ -41,7 +41,7 @@ A modern full-stack task manager application built with **React**, **Node.js**, 
 ###  1. Clone the Repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/taskmanager-fullstack.git
+git clone https://github.com/areybakram/taskmanager-fullstack.git
 cd taskmanager-fullstack
 ```
 
